@@ -1,0 +1,30 @@
+.main {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.doors {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  list-style-type: none;
+}
+
+.doors > li {
+  width: 100%;
+  padding: 10px;
+}
+
+.doors > li > img {
+  margin: 0 auto;
+}
+
+.doors > li > button {
+  display: block;
+  width: 100%;
+}
+
+.resetButton {
+  display: block;
+  margin: 0 auto;
+}
